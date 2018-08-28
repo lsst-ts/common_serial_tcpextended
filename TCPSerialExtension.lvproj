@@ -12,19 +12,16 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Communicator.lvclass" Type="LVClass" URL="../Communicator/Communicator.lvclass"/>
-		<Item Name="SerialClient.lvclass" Type="LVClass" URL="../CommunicatorClients/Serial/SerialClient.lvclass"/>
-		<Item Name="TCPClient.lvclass" Type="LVClass" URL="../CommunicatorClients/TCP/TCPClient.lvclass"/>
-		<Item Name="tcp.lvlib" Type="Library" URL="../../common_ascii_tcp/TCPClient/tcp.lvlib"/>
+		<Item Name="SerialCommunication.lvclass" Type="LVClass" URL="../CommunicatorClients/Serial/SerialCommunication.lvclass"/>
+		<Item Name="TCPCommunication.lvclass" Type="LVClass" URL="../CommunicatorClients/TCP/TCPCommunication.lvclass"/>
 		<Item Name="SerialProtocols.lvlib" Type="Library" URL="../common_serialprotocols/SerialProtocols.lvlib"/>
+		<Item Name="tcp.lvlib" Type="Library" URL="../common_ascii_tcp/tcp.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-			</Item>
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
 			<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="../common_simulators_simulateserialdata/SimulateSerialData.lvclass"/>
 		</Item>

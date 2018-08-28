@@ -4,3 +4,6 @@
 [submodule "common_simulators_simulateserialdata"]
 	path = common_simulators_simulateserialdata
 	url = https://github.com/lsst-ts/common_simulators_simulateserialdata.git
+[submodule "common_ascii_tcp"]
+	path = common_ascii_tcp
+	url = https://github.com/lsst-ts/common_ascii_tcp.git

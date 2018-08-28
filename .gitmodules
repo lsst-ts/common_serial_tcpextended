@@ -1,0 +1,6 @@
+[submodule "common_serialprotocols"]
+	path = common_serialprotocols
+	url = https://github.com/lsst-ts/common_serialprotocols.git
+[submodule "common_simulators_simulateserialdata"]
+	path = common_simulators_simulateserialdata
+	url = https://github.com/lsst-ts/common_simulators_simulateserialdata.git
